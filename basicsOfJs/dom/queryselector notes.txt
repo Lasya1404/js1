@@ -1,0 +1,38 @@
+document.getElementById('tophead')
+<div id=​"tophead" class=​"head1" style=​"background-color:​ green;​ color:​ white;​">​<h1>​Learn Java Script​</h1>​<p>​…​</p>​<ul>​…​</ul>​</div>​
+const one = document.getElementById('tophead')
+undefined
+one.style.backgroundColor='black'
+'black'
+one.style.color='white'
+'white'
+one.style.backgroundColor='dark blue'
+'dark blue'
+one.style.backgroundColor='green'
+'green'
+const myul = docu
+VM369:1 Uncaught ReferenceError: docu is not defined
+    at <anonymous>:1:14
+(anonymous) @ VM369:1
+const myul = document.querySelector('li')
+undefined
+
+myul.style.col
+undefined
+
+myul.style.color='black'
+'black'
+
+const myul = document.querySelectorAll('li')
+undefined
+
+myul
+NodeList(4) [li, li, li, li]
+
+myul.style.color='blue'
+VM591:1 Uncaught TypeError: Cannot set properties of undefined (setting 'color')
+    at <anonymous>:1:17
+(anonymous) @ VM591:1
+
+myul[2].style.color='blue'
+'blue'

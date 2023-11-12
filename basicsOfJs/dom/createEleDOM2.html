@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>manipulating the DOM</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+    const ele= document.createElement("div");
+    console.log(ele);
+    ele.className="main"
+    ele.setAttribute('id','name')
+    ele.style.backgroundColor='blue';
+    ele.style.padding='20px';
+    ele.style.color='black';
+    ele.style.border= '4px dotted black';
+
+    const text=document.createTextNode("hello guys.....let's get started")
+    //document.body.appendChild(text)
+    ele.appendChild(text);
+    document.body.appendChild(ele);
+    
+</script>
+</html>
